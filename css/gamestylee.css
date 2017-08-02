@@ -1,0 +1,98 @@
+body {
+    background-image: url("../Images/curtains3.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+    font-family:'Special Elite', cursive;
+    line-height: 1.4;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#container {
+    width: 90%;
+    background: #ffffe6;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+    border: none;
+}
+
+header {
+    margin: 80px;
+    text-align: center;
+    border-bottom: #000 dashed 5px;
+    border-top: #000 dashed 5px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    padding: 0;
+    margin-top: 5px;
+    color: #000
+}
+
+section {
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background: red;
+    border: 20;
+    color: #000;
+    font-size: 15px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+
+#results h3 {
+    background: red;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+

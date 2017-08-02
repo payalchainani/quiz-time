@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  
+}
+
+#hero {
+    background-image: url("../Images/curtains1.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.5)
+}
+
+h1 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    text-align: center;
+    letter-spacing: -1px;  
+    padding: 10px; 
+    position: absolute; 
+    top: 100px; 
+    width: 100%;
+    /*color: #000;*/
+    font-size: 60px;
+    font-size: 8.5 vw;
+    font-family: 'Limelight', cursive;
+}
+
+p {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    text-align: center;
+    letter-spacing: -1px;  
+    padding: 10px; 
+    position: absolute; 
+    top: 250px; 
+    width: 100%;
+    font-size: 45px;
+    font-size: 8.5 vw;
+    font-family: 'Limelight', cursive;
+}
+
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+      position: absolute;
+    top: 400px; 
+    right: 42%;
+  width: 150px;
+}
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+.card .back {
+    background: #333;
+    color: #fff;
+    line-height: 120px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
